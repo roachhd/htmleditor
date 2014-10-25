@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html manifest="editor.appcache">
 	<head>
-		<title>html editor</title>
+		<title>JS ALIVEr</title>
 		<link rel="stylesheet" href="js/codemirror/codemirror.css">
 		<script src="js/codemirror/codemirror.js"></script>
 		<script src="js/codemirror/mode/xml.js"></script>
@@ -333,7 +333,7 @@
 			buttonShare.addEventListener( 'click', function ( event ) {
 
 				var dom = document.createElement( 'input' );
-				dom.value = 'http://www.mrdoob.com/projects/htmleditor/#B/' + encode( editor.getValue() );
+				dom.value = 'http://roachhaus.github.io/JS-Alive/' + encode( editor.getValue() );
 				dom.style.width = '400px';
 				dom.style.padding = '5px';
 				dom.style.marginTop = '20px';
@@ -373,7 +373,7 @@
 				dom.style.padding = '5px';
 				dom.style.border = '0px';
 				dom.style.textAlign = 'center';
-				dom.innerHTML = '<h1>HTML EDITOR<\/h1><a href="https://github.com/mrdoob/htmleditor" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' + CodeMirror.version + '</a> and <a href="http://esprima.org/" target="_blank">Esprima ' + esprima.version + '</a>.';
+				dom.innerHTML = '<h1>JS ALIVE<\/h1><a href="https://github.com/RoachHaus/JS-Alive" target="_blank">Source code</a>.<br>Powered by <a href="http://codemirror.net/" target="_blank">CodeMirror ' + CodeMirror.version + '</a> and <a href="https://twitter.com/mektball/" target="_blank">Katie Ball ' + Roach Haus + '</a>.';
 				popup.set( dom );
 				popup.show();
 
