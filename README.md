@@ -1,4 +1,4 @@
-html editor
-===========
+JS Alive
+===
 
-Simple editor for messing around.
+A live preview Javascript code editor.
